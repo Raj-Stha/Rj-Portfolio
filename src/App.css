@@ -105,3 +105,8 @@
     border-bottom: none;
   }
 }
+
+.bannerImage {
+  max-width: 100%;
+  height: auto;
+}
