@@ -30,10 +30,12 @@ const Banner = () => {
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
             dolore hic eius, aspernatur tempore nesciunt atque aliquam corporis,
             sint pariatur repudiandae neque quas. Soluta ea suscipit ad labore
-            porro libero? Lorem ipsum dolor sit amet, consectetur adipisicing
-            elit. Nostrum repudiandae atque itaque tenetur ullam assumenda quas
-            possimus maiores consectetur iusto tempore, modi quidem architecto
-            earum in perferendis eum ab explicabo.
+            <span className="m-sm:hidden">
+              porro libero? Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit. Nostrum repudiandae atque itaque tenetur ullam assumenda
+              quas possimus maiores consectetur iusto tempore, modi quidem
+              architecto earum in perferendis eum ab explicabo.
+            </span>
           </p>
         </div>
       </div>
