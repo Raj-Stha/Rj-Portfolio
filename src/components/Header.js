@@ -146,7 +146,7 @@ const Header = () => {
             <div className="absolute  right-[4%] px-2   z-30 bg-white">
               <div className="flex flex-col pt-3 space-y-1 text-sm ">
                 <Link
-                  className={`${currentClass == "mobile-home" && "active"}`}
+                  className={`${currentClass === "mobile-home" && "active"}`}
                   id="mobile-home"
                   to="home"
                   smooth={true}
@@ -160,7 +160,7 @@ const Header = () => {
                   Home
                 </Link>
                 <Link
-                  className={`${currentClass == "mobile-service" && "active"}`}
+                  className={`${currentClass === "mobile-service" && "active"}`}
                   to="service"
                   id="mobile-service"
                   offset={-28}
@@ -174,7 +174,9 @@ const Header = () => {
                   Services
                 </Link>
                 <Link
-                  className={`${currentClass == "mobile-projects" && "active"}`}
+                  className={`${
+                    currentClass === "mobile-projects" && "active"
+                  }`}
                   to="projects"
                   id="mobile-projects"
                   smooth={true}
@@ -188,7 +190,7 @@ const Header = () => {
                   Projects
                 </Link>
                 <Link
-                  className={`${currentClass == "mobile-contact" && "active"}`}
+                  className={`${currentClass === "mobile-contact" && "active"}`}
                   to="contact"
                   id="mobile-contact"
                   smooth={true}
@@ -208,7 +210,7 @@ const Header = () => {
                   setMenu(false);
                 }}
                 className={`${
-                  currentClass == "darkmode" && "active"
+                  currentClass === "darkmode" && "active"
                 } cursor-pointer darkmode text-sm pb-2`}
                 id="darkmode"
               >
