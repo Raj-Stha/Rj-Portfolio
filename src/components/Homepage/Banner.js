@@ -13,7 +13,6 @@ const Banner = () => {
           <img
             className="w-[50%] m-lg:w-[50%] m-md:w-[80%] m-md:h-[90%] h-auto "
             src="./images/profile.png"
-            height="auto"
             alt="Rj-profile | Raj Shrestha"
           />
         </div>
