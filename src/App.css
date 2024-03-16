@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200&display=swap");
+
+/* Colors */
+.primary-color {
+  color: rgb(235, 3, 235);
+}
+
+.text-secondary {
+  color: #f013b0;
+}
+
+/* Service Section Hover */
+
+.hover-effect {
+  transition: transform 0.4s;
+}
+.hover-effect:hover {
+  background-color: rgb(22, 22, 22);
+  transform: translateY(-10px);
+}
+/* Service Card List Color */
+.darMode-card-bg-color {
+  background-color: rgb(27, 27, 27);
+  color: white;
+}
+.darMode-card-bg-color:hover {
+  background-color: rgb(22, 22, 22);
+}
+
+.darMode-card-bg-color:hover i {
+  color: white;
+}
+.lightMode-card-bg-color {
+  background-color: rgb(255, 239, 255);
+}
+
+.lightMode-card-bg-color:hover {
+  background-color: rgb(249, 203, 249);
+}
+/* Ends Here */
+.lightMode-card-bg-color:hover i {
+  color: black;
+}
+/* Ends Here */
+
+/* Latest Project */
+
+.card-list:hover img {
+  transform: scale(1.1);
+}
+
+.card-list img {
+  transition: transform 0.5s;
+}
+
+.card-content {
+  transition: height 0.5s ease-in-out;
+}
+.card-list:hover .card-content {
+  height: 100%;
+}
+
+.input-field {
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: 3px solid rgb(200, 197, 197);
+}
+
+.input-field:focus {
+  border-color: rgb(213, 14, 213) !important;
+}
+.input-darkMode {
+  color: white;
+}
+.message {
+  padding: 10px;
+}
+
+.nav-content {
+  cursor: pointer;
+  user-select: none;
+}
+
+.nav-content:hover,
+.darkmode:hover {
+  color: rgb(233, 7, 233);
+}
+
+.active {
+  color: rgb(235, 3, 235);
+  font-weight: 400;
+  border-bottom: 3px solid rgb(211, 97, 211);
+}
+
+.toast {
+  color: red !important;
+}
+
+@media only screen and (max-width: 640px) {
+  .active {
+    border-bottom: none;
+  }
+}
