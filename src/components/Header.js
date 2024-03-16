@@ -116,14 +116,14 @@ const Header = () => {
               Contact
             </Link>
 
-            <h3
+            <p
               onClick={() => {
                 dispatch(setTheme({ darkMode: !data.darkMode }));
               }}
               className="cursor-pointer darkmode"
             >
               <i className="fa-solid fa-circle-half-stroke text-2xl"></i>
-            </h3>
+            </p>
           </div>
 
           <div className="end hidden m-sm:block ">

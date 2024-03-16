@@ -11,9 +11,9 @@ const Banner = () => {
       >
         <div className="  left w-[40%]  m-md:w-[35%]  flex  pt-[1%] m-lg:items-center justify-center  m-sm:hidden ">
           <img
-            className="w-[50%] m-lg:w-[50%] m-md:w-[80%] m-md:h-[90%] h-auto bannerImage"
+            className="w-[50%] m-lg:w-[50%] m-md:w-[80%] m-md:h-[90%] h-auto "
             src="./images/profile.png"
-            av
+            height="auto"
             alt="Rj-profile | Raj Shrestha"
           />
         </div>
@@ -29,14 +29,11 @@ const Banner = () => {
           <p className="m-lg:text-sm m-sm:text-xs m-sm:leading-5 ">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
             dolore hic eius, aspernatur tempore nesciunt atque aliquam corporis,
-            sint pariatur repudiandae neque quas.
-            <span className="m-sm:hidden">
-              Soluta ea suscipit ad labore porro libero? Lorem ipsum dolor sit
-              amet, consectetur adipisicing elit. Nostrum repudiandae atque
-              itaque tenetur ullam assumenda quas possimus maiores consectetur
-              iusto tempore, modi quidem architecto earum in perferendis eum ab
-              explicabo.
-            </span>
+            sint pariatur repudiandae neque quas. Soluta ea suscipit ad labore
+            porro libero? Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Nostrum repudiandae atque itaque tenetur ullam assumenda quas
+            possimus maiores consectetur iusto tempore, modi quidem architecto
+            earum in perferendis eum ab explicabo.
           </p>
         </div>
       </div>

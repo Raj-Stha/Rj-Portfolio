@@ -17,10 +17,10 @@ const Footer = () => {
           data.darkMode ? "text-white" : "primary-color font-medium"
         }`}
       >
-        <h5 className=" m-sm:text-xs">
+        <p className=" m-sm:text-xs">
           <span className="text-xl m-sm:text-sm">&copy;</span> Copyright {year}.
           All right reserved
-        </h5>
+        </p>
         <div className=" w-[18%]  pb-2 pr-[6%] m-lg:w-[10%]  m-sm:w-[14%]">
           <i
             className="fa-solid fa-arrow-up text-purple-50  text-lg px-4 py-2 bg-purple-500 rounded-full hover:bg-purple-900  shadow-lg hover:text-white m-lg:px-3 m-lg:py-1 m-sm:px-3 m-sm:py-1"

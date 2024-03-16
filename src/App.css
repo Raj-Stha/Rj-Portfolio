@@ -96,17 +96,8 @@
   border-bottom: 3px solid rgb(211, 97, 211);
 }
 
-.toast {
-  color: red !important;
-}
-
 @media only screen and (max-width: 640px) {
   .active {
     border-bottom: none;
   }
-}
-
-.bannerImage {
-  max-width: 100%;
-  height: auto;
 }
