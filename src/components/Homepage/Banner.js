@@ -11,7 +11,7 @@ const Banner = () => {
       >
         <div className="  left w-[40%]  m-md:w-[35%]  flex  pt-[1%] m-lg:items-center justify-center  m-sm:hidden ">
           <img
-            className="w-[50%] m-lg:w-[50%] m-md:w-[80%] m-md:h-[90%] h-auto "
+            className="w-[50%] m-lg:w-[50%] m-md:w-[80%] m-md:h-[90%] h-[100%] "
             src="./images/profile.png"
             alt="Rj-profile | Raj Shrestha"
           />
