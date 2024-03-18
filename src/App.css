@@ -96,6 +96,10 @@
   border-bottom: 3px solid rgb(211, 97, 211);
 }
 
+.social-media:hover {
+  color: rgb(233, 7, 233);
+}
+
 @media only screen and (max-width: 640px) {
   .active {
     border-bottom: none;
