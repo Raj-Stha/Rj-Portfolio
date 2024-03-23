@@ -27,22 +27,27 @@ const Banner = () => {
           <h2 className="pb-[4%] m-lg:pb-[3%] text-base m-lg:text-sm primary-color m-sm:text-xs font-semibold m-sm:pb-[1%] m-sm:font-medium">
             Web Developer
           </h2>
-          <p className="m-lg:text-sm leading-6 m-sm:text-xs m-sm:leading-5 m-sm:pt-[1%]  ">
-            <span className="m-sm:hidden">
-              Welcome to the digital domain of Raj Shrestha, a seasoned
-              full-stack web developer poised to elevate your online presence.
-              With proficiency in ReactJS, NEXT.js, AngularJS, Tailwind CSS,
-              PHP, Wordpres, Shopify, Wix and Express JS, Raj crafts dynamic and
-              responsive websites that captivate audiences and drive
-              results.&nbsp;
-            </span>
-            Ready to take your digital footprint to new heights? Explore Raj's
-            latest projects, showcasing the fusion of innovation and expertise.
-            <span className="m-sm:hidden">
-              From sleek user interfaces to robust backend solutions, each
-              creation reflects Raj's commitment to excellence.
-            </span>
-          </p>
+          <div className="m-lg:text-sm leading-6 m-sm:text-xs m-sm:leading-5 m-sm:pt-[1%]">
+            <p className="  ">
+              <span className="m-sm:hidden">
+                Welcome to the digital domain of Raj Shrestha, a seasoned
+                full-stack web developer poised to elevate your online presence.
+                With proficiency in ReactJS, NEXT.js, AngularJS, Tailwind CSS,
+                PHP, Wordpres, Shopify, Wix and Express JS, Raj crafts dynamic
+                and responsive websites that captivate audiences and drive
+                results.&nbsp;
+              </span>
+              <span>
+                Ready to take your digital footprint to new heights? Explore
+                Raj's latest projects, showcasing the fusion of innovation and
+                expertise.
+              </span>
+              <span className="m-sm:hidden">
+                From sleek user interfaces to robust backend solutions, each
+                creation reflects Raj's commitment to excellence.
+              </span>
+            </p>
+          </div>
         </div>
       </div>
     </div>
