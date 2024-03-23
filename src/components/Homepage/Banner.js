@@ -25,7 +25,7 @@ const Banner = () => {
           <h2 className="pb-[4%] m-lg:pb-[3%] text-base m-lg:text-sm primary-color m-sm:text-xs font-semibold m-sm:pb-[1%] m-sm:font-medium">
             Web Developer
           </h2>
-          <p className="m-lg:text-sm leading-6 m-sm:text-xs m-sm:leading-5 m-sm: pt-[1%]  ">
+          <p className="m-lg:text-sm leading-6 m-sm:text-xs m-sm:leading-5 m-sm:pt-[1%]  ">
             <span className="m-sm:hidden">
               Welcome to the digital domain of Raj Shrestha, a seasoned
               full-stack web developer poised to elevate your online presence.
