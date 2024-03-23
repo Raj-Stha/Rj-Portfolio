@@ -4,7 +4,7 @@ import RootLayout from "./components/RootLayout";
 import { Route, Routes } from "react-router";
 import PageNotFound from "./pages/PageNotFound";
 import { useEffect } from "react";
-// import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/react";
 
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -28,7 +28,7 @@ function App() {
         position="top-right"
         className=" toast"
       />
-      {/* <Analytics /> */}
+      <Analytics />
     </>
   );
 }
