@@ -73,7 +73,7 @@ const Header = () => {
           </div>
 
           <div
-            className="right flex items-center space-x-4 px-4 navlink m-sm:hidden"
+            className="right flex items-center space-x-4 px-4 navlink m-sm:hidden primary-color font-semibold"
             id="navlink"
           >
             <Link
