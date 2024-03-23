@@ -31,7 +31,8 @@ const Banner = () => {
               full-stack web developer poised to elevate your online presence.
               With proficiency in ReactJS, NEXT.js, AngularJS, Tailwind CSS,
               PHP, Wordpres, Shopify, Wix and Express JS, Raj crafts dynamic and
-              responsive websites that captivate audiences and drive results.
+              responsive websites that captivate audiences and drive
+              results.&nbsp;
             </span>
             Ready to take your digital footprint to new heights? Explore Raj's
             latest projects, showcasing the fusion of innovation and expertise.
