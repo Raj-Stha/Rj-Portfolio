@@ -22,17 +22,21 @@ const Banner = () => {
             Raj Shrestha
           </h2>
 
-          <h2 className="pb-[6%] text-base m-lg:text-sm primary-color m-sm:text-xs font-semibold m-sm:pb-[1%] m-sm:font-medium">
+          <h2 className="pb-[4%] m-lg:pb-[3%] text-base m-lg:text-sm primary-color m-sm:text-xs font-semibold m-sm:pb-[1%] m-sm:font-medium">
             Web Developer
           </h2>
-          <p className="m-lg:text-sm m-sm:text-xs m-sm:leading-5 ">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
-            dolore hic eius, aspernatur tempore nesciunt atque aliquam corporis,
-            sint pariatur repudiandae neque quas. Soluta ea suscipit ad labore
-            porro libero? Lorem ipsum dolor sit amet, consectetur adipisicing
-            elit. Nostrum repudiandae atque itaque tenetur ullam assumenda quas
-            possimus maiores consectetur iusto tempore, modi quidem architecto
-            earum in perferendis eum ab explicabo.
+          <p className="m-lg:text-sm leading-6 m-sm:text-xs m-sm:leading-5 m-sm: pt-[1%]  ">
+            <span className="m-sm:hidden">
+              Welcome to the digital domain of Raj Shrestha, a seasoned
+              full-stack web developer poised to elevate your online presence.
+              With proficiency in ReactJS, NEXT.js, AngularJS, Tailwind CSS,
+              PHP, Wordpres, Shopify, Wix and Express JS, Raj crafts dynamic and
+              responsive websites that captivate audiences and drive results.
+            </span>
+            Ready to take your digital footprint to new heights? Explore Raj's
+            latest projects, showcasing the fusion of innovation and expertise.
+            From sleek user interfaces to robust backend solutions, each
+            creation reflects Raj's commitment to excellence.
           </p>
         </div>
       </div>
