@@ -31,7 +31,7 @@ const Banner = () => {
             <p className="hey hidden m-sm:block">
               Ready to take your digital footprint to new heights? Explore Raj's
               latest projects, showcasing the fusion of innovation and
-              expertise. From sleek user interfaces to robust backend solutions,
+              expertise.
             </p>
             <p className="m-sm:hidden ">
               Welcome to the digital domain of Raj Shrestha, a seasoned
