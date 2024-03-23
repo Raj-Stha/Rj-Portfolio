@@ -23,7 +23,7 @@ const Footer = () => {
         </p>
         <div className=" w-[18%]  pb-2 pr-[6%] m-lg:w-[10%]  m-sm:w-[14%]">
           <i
-            className="fa-solid fa-arrow-up text-purple-50  text-lg px-4 py-2 bg-purple-500 rounded-full hover:bg-purple-900  shadow-lg hover:text-white m-lg:px-3 m-lg:py-1 m-sm:px-3 m-sm:py-1"
+            className="fa-solid fa-arrow-up text-purple-50  text-lg px-4 py-2 bg-purple-500 rounded-full hover:bg-purple-700  shadow-lg hover:text-white m-lg:px-3 m-lg:py-1 m-sm:px-3 m-sm:py-1"
             onClick={scrolltop}
           ></i>
         </div>

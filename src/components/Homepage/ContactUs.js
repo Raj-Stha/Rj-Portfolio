@@ -5,10 +5,11 @@ import emailjs from "@emailjs/browser";
 import * as Yup from "yup";
 import { useSelector } from "react-redux";
 import { toast } from "react-toastify";
-
+import { Spinner } from "@material-tailwind/react";
 const ContactUs = () => {
   const data = useSelector((state) => state.userInfo.userData);
   const form = useRef();
+  const [isLoad, setLoad] = useState(false);
   const contactSchema = Yup.object().shape({
     fullName: Yup.string()
       .matches(/^[a-zA-Z_ ]*$/, "Name should only contain alphabets")
@@ -28,6 +29,7 @@ const ContactUs = () => {
     },
     validationSchema: contactSchema,
     onSubmit: async (value, { resetForm }) => {
+      setLoad(true);
       emailjs
         .sendForm("service_51e8nfi", "template_0u778hk", form.current, {
           publicKey: "NWmUJ0z4KKnlh24N3",
@@ -37,8 +39,10 @@ const ContactUs = () => {
             setFormSubmmited(true);
             resetForm();
             toast(" ☑️ Submitted Successfully");
+            setLoad(false);
           },
           (error) => {
+            setLoad(false);
             toast.error(error);
           }
         );
@@ -76,14 +80,17 @@ const ContactUs = () => {
                 <p>Let's Transform Ideas into Action! </p>
                 <p>Drop us a line - we'd love to hear from you!"</p>
               </div>
-              <div className="flex items-center space-x-4 m-lg:text-sm">
-                <i
-                  className={`fa-solid fa-envelope  ${
-                    data.darkMode ? "text-white" : "primary-color"
-                  }`}
-                ></i>
-                <a href="mailto:rajcrestha00@gmail.com">
-                  rajcrestha00@gmail.com
+              <div className="inline-block">
+                <a
+                  href="mailto:rajcrestha00@gmail.com"
+                  className="flex items-center space-x-4 m-lg:text-sm hover:text-purple-400"
+                >
+                  <i
+                    className={`fa-solid fa-envelope  ${
+                      data.darkMode ? "text-white" : "primary-color"
+                    }`}
+                  ></i>
+                  <p className="">rajcrestha00@gmail.com</p>
                 </a>
               </div>
               <div
@@ -91,10 +98,34 @@ const ContactUs = () => {
                   data.darkMode ? "text-white" : "primary-color"
                 }`}
               >
-                <i className="fa-brands fa-github"></i>
-                <i className="fa-brands fa-linkedin"></i>
-                <i className="fa-brands fa-facebook"></i>
-                <i className="fa-brands fa-instagram"></i>
+                <a
+                  href="https://github.com/Raj-Stha"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fa-brands fa-github hover:text-purple-400 cursor-pointer"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/raj-crestha-703baa264"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fa-brands fa-linkedin   hover:text-purple-400  cursor-pointer"></i>
+                </a>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100004412295344"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fa-brands fa-facebook  hover:text-purple-400 cursor-pointer"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/raj._.stha"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fa-brands fa-instagram hover:text-purple-400 cursor-pointer"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -141,9 +172,6 @@ const ContactUs = () => {
                 )}
               </div>
               <div className="pb-4">
-                {/* <label htmlFor="fullName" className="">
-                Message
-              </label> */}
                 <Textarea
                   color="purple"
                   variant="static"
@@ -160,12 +188,22 @@ const ContactUs = () => {
                 )}
               </div>
               <div className="w-[100%] flex justify-center">
-                <button
-                  type="submit"
-                  className="mx-auto  bg-purple-400 px-5 py-3 m-lg:text-sm m-sm:text-xs m-sm:px-4  rounded-md text-white"
-                >
-                  Send Message
-                </button>
+                {isLoad ? (
+                  <button
+                    type="button"
+                    disabled
+                    className="mx-auto w-[30%] m-lg:w-[32%] m-md:w-[40%]  bg-purple-400 px-5 py-3 m-lg:py-[10px]   m-md:py-[10px] m-sm:w-[50%] m-sm:py-[8px] rounded-md text-white"
+                  >
+                    <Spinner className="mx-auto" />
+                  </button>
+                ) : (
+                  <button
+                    type="submit"
+                    className="mx-auto w-[30%] m-lg:w-[32%]  m-md:w-[40%]  bg-purple-400 px-5 py-3 m-lg:text-sm m-sm:text-xs m-sm:w-[50%] m-sm:px-4  rounded-md text-white hover:bg-purple-500"
+                  >
+                    Send Message
+                  </button>
+                )}
               </div>
             </form>
           </div>
