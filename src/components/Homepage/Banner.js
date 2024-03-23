@@ -28,11 +28,6 @@ const Banner = () => {
             Web Developer
           </h2>
           <div className="m-lg:text-sm leading-6 m-sm:text-xs m-sm:leading-5 m-sm:pt-[1%]">
-            <p className="hey hidden m-sm:block">
-              Ready to take your digital footprint to new heights? Explore Raj's
-              latest projects, showcasing the fusion of innovation and
-              expertise.
-            </p>
             <p className="m-sm:hidden ">
               Welcome to the digital domain of Raj Shrestha, a seasoned
               full-stack web developer poised to elevate your online presence.
@@ -43,6 +38,11 @@ const Banner = () => {
               latest projects, showcasing the fusion of innovation and
               expertise. From sleek user interfaces to robust backend solutions,
               each creation reflects Raj's commitment to excellence.
+            </p>
+            <p className="hey hidden m-sm:block">
+              Ready to take your digital footprint to new heights? Explore Raj's
+              latest projects, showcasing the fusion of innovation and
+              expertise.
             </p>
           </div>
         </div>
