@@ -83,6 +83,7 @@ const ContactUs = () => {
               <div className="inline-block">
                 <a
                   href="mailto:rajcrestha00@gmail.com"
+                  aria-label="Email at rajcrestha00@gmail.com"
                   className="flex items-center space-x-4 m-lg:text-sm hover:text-purple-400"
                 >
                   <i
@@ -101,12 +102,14 @@ const ContactUs = () => {
                 <a
                   href="https://github.com/Raj-Stha"
                   target="_blank"
+                  aria-label="Github Raj Stha"
                   rel="noreferrer"
                 >
                   <i className="fa-brands fa-github hover:text-purple-400 cursor-pointer"></i>
                 </a>
                 <a
                   href="https://www.linkedin.com/in/raj-crestha-703baa264"
+                  aria-label="LinkIn Raj Stha"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -114,6 +117,7 @@ const ContactUs = () => {
                 </a>
                 <a
                   href="https://www.facebook.com/profile.php?id=100004412295344"
+                  aria-label="Facebook Raj Stha"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -121,6 +125,7 @@ const ContactUs = () => {
                 </a>
                 <a
                   href="https://www.instagram.com/raj._.stha"
+                  aria-label="Insta Raj Stha"
                   target="_blank"
                   rel="noreferrer"
                 >
