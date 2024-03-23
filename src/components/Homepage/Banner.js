@@ -20,9 +20,9 @@ const Banner = () => {
         </div>
 
         <div className="left w-[45%]  m-lg:w-[50%] m-md:w-[55%]  text-justify pt-[6%] m-sm:w-[100%]">
-          <h2 className="text-2xl py-1 m-lg:text-xl m-sm:text-base m-sm:pb-0 ">
+          <h1 className="text-2xl py-1 m-lg:text-xl m-sm:text-base m-sm:pb-0 ">
             Raj Shrestha
-          </h2>
+          </h1>
 
           <h2 className="pb-[4%] m-lg:pb-[3%] text-base m-lg:text-sm primary-color m-sm:text-xs font-semibold m-sm:pb-[1%] m-sm:font-medium">
             Web Developer
