@@ -11,7 +11,7 @@ const Banner = () => {
       >
         <div className="  left w-[40%]  m-md:w-[35%]  flex  pt-[1%] m-lg:items-center justify-center  m-sm:hidden ">
           <img
-            className="w-[50%] m-lg:w-[50%] m-md:w-[80%] m-md:h-[90%] h-[100%] "
+            className="w-[50%] m-lg:w-[50%] m-md:w-[80%]  h-[100%] m-md:h-[90%]  "
             src="./images/profile.png"
             alt="Rj-profile | Raj Shrestha"
           />
@@ -36,8 +36,10 @@ const Banner = () => {
             </span>
             Ready to take your digital footprint to new heights? Explore Raj's
             latest projects, showcasing the fusion of innovation and expertise.
-            From sleek user interfaces to robust backend solutions, each
-            creation reflects Raj's commitment to excellence.
+            <span className="m-sm:hidden">
+              From sleek user interfaces to robust backend solutions, each
+              creation reflects Raj's commitment to excellence.
+            </span>
           </p>
         </div>
       </div>
